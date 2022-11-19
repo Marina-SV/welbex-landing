@@ -1,5 +1,5 @@
 .typography {
-    color: var(--text-color);
+    color: var(--light-gray);
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
@@ -9,7 +9,7 @@
 }
 
 .typography_title {
-    color: var(--title-color, var(--text-color));
+    color: var(--title-color, var(--light-gray));
     font-family: 'Inter', sans-serif;
     font-weight: var(--title-weight);
 }

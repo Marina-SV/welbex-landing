@@ -2,6 +2,10 @@
     display: none !important;
 }
 
+.hide-more-md {
+    display: var(--display, block) !important;
+}
+
 .hide-less-lg {
     display: none !important;
 }
@@ -9,6 +13,10 @@
 @media screen and (min-width: 720px) {
     .hide-less-md {
         display: var(--display, block) !important;
+    }
+
+    .hide-more-md {
+        display: none !important;
     }
 }
 
