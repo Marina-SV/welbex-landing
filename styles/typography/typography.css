@@ -1,0 +1,31 @@
+.typography {
+    color: var(--text-color);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.typography_link {
+    font-family: 'Inter', sans-serif;
+}
+
+.typography_title {
+    color: var(--title-color, var(--text-color));
+    font-family: 'Inter', sans-serif;
+    font-weight: var(--title-weight);
+}
+
+.typography_title_normal {
+    --title-weight: 400;
+}
+
+.typography_title_semi-bold {
+    --title-weight: 500;
+}
+
+.typography_title_bold {
+    --title-weight: 700;
+}
+
+.typography_title_extra-bold {
+    --title-weight: 900;
+}

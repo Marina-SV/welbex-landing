@@ -1,0 +1,14 @@
+.list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.icon-list {
+    display: flex;
+}
+
+.icon-list > *:not(:first-child) {
+    margin-left: var(--items-spacing, calc(var(--spacing) * 4));
+}
+

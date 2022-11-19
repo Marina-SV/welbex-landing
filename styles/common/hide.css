@@ -1,0 +1,19 @@
+.hide-less-md {
+    display: none !important;
+}
+
+.hide-less-lg {
+    display: none !important;
+}
+
+@media screen and (min-width: 720px) {
+    .hide-less-md {
+        display: var(--display, block) !important;
+    }
+}
+
+@media screen and (min-width: 1140px) {
+    .hide-less-lg {
+        display: var(--display, block) !important;
+    }
+}

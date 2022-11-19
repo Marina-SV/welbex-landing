@@ -1,0 +1,9 @@
+.link {
+    text-decoration: none;
+}
+
+.icon-link {
+    display: inline-block;
+    width: var(--icon-size, var(--icon-md));
+    height: var(--icon-size,  var(--icon-md));
+}

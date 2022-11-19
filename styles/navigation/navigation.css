@@ -1,0 +1,8 @@
+.navigation-list {
+    display: flex;
+}
+
+.navigation-list__item:not(:first-child) {
+    margin-left: var(--items-spacing);
+}
+

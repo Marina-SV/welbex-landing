@@ -1,0 +1,6 @@
+.container {
+    margin: 0 auto;
+    padding-left: var(--gutter);
+    padding-right: var(--gutter);
+    max-width: var(--max-width);
+}
